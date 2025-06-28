@@ -1,0 +1,7 @@
+generate_assemble_language_opt(8,"ass_opt.txt")
+generate_assemble_language(8,"ass.txt")
+generate_input(8)
+asm_to_machinecode("ass.txt", "mcode.txt")
+asm_to_machinecode("ass_opt.txt", "mcode_opt.txt")
+tb_generation("mcode.txt", "abc_output.txt", "final.txt")
+tb_generation("mcode_opt.txt", "abc_output.txt", "final_opt.txt")

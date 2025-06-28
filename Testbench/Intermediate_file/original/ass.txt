@@ -1,0 +1,248 @@
+MOV r1 02 $1
+MOV r1 00 $0
+MOV r2 02 $1
+MOV r2 40 $0
+MOV r3 01 $1
+MOV r3 00 $0
+MOV r4 02 $1
+MOV r4 80 $0
+MOV r6 02 $1
+MOV r6 60 $0
+MOV r7 02 $1
+MOV r7 20 $0
+MOV r8 01 $1
+MOV r8 20 $0
+MOV r15 8 $0
+MOV r15 FF $1
+Vload vr1 r1 0
+VMAC-s vr2 / vr1 $1
+Load r5 r3 0
+Vload vr1 r2 0
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 1
+Vload vr1 r2 8
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 2
+Vload vr1 r2 16
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 3
+Vload vr1 r2 24
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 4
+Vload vr1 r6 0
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 5
+Vload vr1 r6 8
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 6
+Vload vr1 r6 16
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 7
+Vload vr1 r6 24
+VMAC-s vr2 r5 vr1 $0
+VStore / r4 vr2
+MOV r4 02 $1
+MOV r4 88 $0
+Vload vr1 r1 8
+VMAC-s vr2 / vr1 $1
+Load r5 r3 8
+Vload vr1 r2 0
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 9
+Vload vr1 r2 8
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 10
+Vload vr1 r2 16
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 11
+Vload vr1 r2 24
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 12
+Vload vr1 r6 0
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 13
+Vload vr1 r6 8
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 14
+Vload vr1 r6 16
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 15
+Vload vr1 r6 24
+VMAC-s vr2 r5 vr1 $0
+VStore / r4 vr2
+MOV r4 02 $1
+MOV r4 90 $0
+Vload vr1 r1 16
+VMAC-s vr2 / vr1 $1
+Load r5 r3 16
+Vload vr1 r2 0
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 17
+Vload vr1 r2 8
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 18
+Vload vr1 r2 16
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 19
+Vload vr1 r2 24
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 20
+Vload vr1 r6 0
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 21
+Vload vr1 r6 8
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 22
+Vload vr1 r6 16
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 23
+Vload vr1 r6 24
+VMAC-s vr2 r5 vr1 $0
+VStore / r4 vr2
+MOV r4 02 $1
+MOV r4 98 $0
+Vload vr1 r1 24
+VMAC-s vr2 / vr1 $1
+Load r5 r3 24
+Vload vr1 r2 0
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 25
+Vload vr1 r2 8
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 26
+Vload vr1 r2 16
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 27
+Vload vr1 r2 24
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 28
+Vload vr1 r6 0
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 29
+Vload vr1 r6 8
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 30
+Vload vr1 r6 16
+VMAC-s vr2 r5 vr1 $0
+Load r5 r3 31
+Vload vr1 r6 24
+VMAC-s vr2 r5 vr1 $0
+VStore / r4 vr2
+MOV r4 02 $1
+MOV r4 A0 $0
+Vload vr1 r7 0
+VMAC-s vr2 / vr1 $1
+Load r5 r8 0
+Vload vr1 r2 0
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 1
+Vload vr1 r2 8
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 2
+Vload vr1 r2 16
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 3
+Vload vr1 r2 24
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 4
+Vload vr1 r6 0
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 5
+Vload vr1 r6 8
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 6
+Vload vr1 r6 16
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 7
+Vload vr1 r6 24
+VMAC-s vr2 r5 vr1 $0
+VStore / r4 vr2
+MOV r4 02 $1
+MOV r4 A8 $0
+Vload vr1 r7 8
+VMAC-s vr2 / vr1 $1
+Load r5 r8 8
+Vload vr1 r2 0
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 9
+Vload vr1 r2 8
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 10
+Vload vr1 r2 16
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 11
+Vload vr1 r2 24
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 12
+Vload vr1 r6 0
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 13
+Vload vr1 r6 8
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 14
+Vload vr1 r6 16
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 15
+Vload vr1 r6 24
+VMAC-s vr2 r5 vr1 $0
+VStore / r4 vr2
+MOV r4 02 $1
+MOV r4 B0 $0
+Vload vr1 r7 16
+VMAC-s vr2 / vr1 $1
+Load r5 r8 16
+Vload vr1 r2 0
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 17
+Vload vr1 r2 8
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 18
+Vload vr1 r2 16
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 19
+Vload vr1 r2 24
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 20
+Vload vr1 r6 0
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 21
+Vload vr1 r6 8
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 22
+Vload vr1 r6 16
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 23
+Vload vr1 r6 24
+VMAC-s vr2 r5 vr1 $0
+VStore / r4 vr2
+MOV r4 02 $1
+MOV r4 B8 $0
+Vload vr1 r7 24
+VMAC-s vr2 / vr1 $1
+Load r5 r8 24
+Vload vr1 r2 0
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 25
+Vload vr1 r2 8
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 26
+Vload vr1 r2 16
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 27
+Vload vr1 r2 24
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 28
+Vload vr1 r6 0
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 29
+Vload vr1 r6 8
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 30
+Vload vr1 r6 16
+VMAC-s vr2 r5 vr1 $0
+Load r5 r8 31
+Vload vr1 r6 24
+VMAC-s vr2 r5 vr1 $0
+VStore / r4 vr2
+MOV r4 02 $1
+MOV r4 C0 $0
